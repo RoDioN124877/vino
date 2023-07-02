@@ -1,0 +1,9 @@
+@mixin font_settings($wf,$sf,$lf){
+    font-weight: $wf;
+    font-size: $sf;
+    line-height: $lf;
+}
+@mixin wh($w,$h){
+    width: $w;
+    height: $h;
+}

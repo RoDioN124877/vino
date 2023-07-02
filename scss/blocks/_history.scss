@@ -1,0 +1,173 @@
+.history{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .history__cotneiner{
+        display: flex;
+        justify-content: space-between;
+        button{
+            font-family: $mane_font;
+            @include font_settings(500,16px,0.8px);
+            border: 0;
+            color: $wh_color;
+            background-color: $accent_color;
+            @include wh(214px,47px);
+            padding: 15px 30px;
+        }
+        .history__-{
+            width: 160px;
+            height: 1px;
+            background: #282828;
+            margin-top: 30px;
+        }
+        width: 1110px;
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-top: 1px solid $accent_color;
+        border-bottom: 1px solid $accent_color;
+        .new__history{
+        font-family: $mane_font;
+        @include font_settings(400,16px,150%);
+        margin-bottom: 30px;
+        }
+        h2{
+            color:$back_color;
+            font-family: $title_font;
+            @include font_settings(700,36px,150%);
+            width: 298px;
+        }
+        .Lorem__history{
+            width: 445px;
+            font-family: $mane_font;
+            @include font_settings(400,14px,150%);
+            margin-bottom: 30px;
+            margin-top: 40px;
+        }
+    }
+    background-color: $back_color2;
+    .history__img__conteiner{
+        .history__img__1{
+            margin-bottom: 30px;
+        }
+        .history__img__3{
+            margin-left: 30px;
+        }
+    }
+    
+}
+table{
+    tr{
+        border-bottom: 1px solid #000;
+    }
+    .history__1980{
+        border-right:1px solid #000 ;
+        font-family: $mane_font;
+        @include font_settings(400,14px,150%);
+        padding: 24px;
+    }
+    td{
+        div{    
+            padding: 15px 30px;
+            p{
+                color: $back_color;
+                font-family: $mane_font;
+                @include font_settings(400,14px,150%);
+            }
+            .history__title{
+                color: #000;
+                font-family: $title_font;
+                @include font_settings(700,18px,150%);
+            }
+        }
+    }
+}
+@media(max-width: 420px){
+    .history{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .history__cotneiner{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            border-top: 1px solid $accent_color;
+            border-bottom: 1px solid $accent_color;
+            button{
+                font-family: $mane_font;
+                @include font_settings(500,16px,0.8px);
+                border: 0;
+                color: $wh_color;
+                background-color: $accent_color;
+                @include wh(214px,47px);
+                padding: 15px 30px;
+            }
+            .history__-{
+                width: 160px;
+                height: 1px;
+                background: #282828;
+                margin-top: 30px;
+            }
+            .new__history{
+            font-family: $mane_font;
+            @include font_settings(400,16px,150%);
+            margin-bottom: 30px;
+            }
+            h2{
+                color:$back_color;
+                font-family: $title_font;
+                @include font_settings(700,36px,150%);
+                width: 298px;
+            }
+            .Lorem__history{
+                width: 300px;
+                font-family: $mane_font;
+                @include font_settings(400,14px,150%);
+                margin-bottom: 30px;
+                margin-top: 40px;
+            }
+        }
+        background-color: $back_color2;
+        .history__img__conteiner{
+           div{
+            text-align: center;
+            }
+            .history__img__1{
+                width: 300px;
+                margin-bottom: 30px;
+            }
+            .history__img__3{
+                margin-left: 0;
+            }
+        }
+        
+    }
+    table{
+        tr{
+            border-bottom: 1px solid #000;
+        }
+        .history__1980{
+            border-right:1px solid #000 ;
+            font-family: $mane_font;
+            @include font_settings(400,14px,150%);
+            padding: 24px;
+        }
+        td{
+            div{    
+                padding: 15px 30px;
+                p{
+                    color: $back_color;
+                    font-family: $mane_font;
+                    @include font_settings(400,14px,150%);
+                }
+                .history__title{
+                    color: #000;
+                    font-family: $title_font;
+                    @include font_settings(700,18px,150%);
+                }
+            }
+        }
+    }
+}
